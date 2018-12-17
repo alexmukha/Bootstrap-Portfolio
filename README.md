@@ -14,7 +14,7 @@ This project includes the following folders and files:
      * [img_03.jpg](./images/img_03.jpg)
      * [img_04.jpg](./images/img_04.jpg)
      * [img_05.jpg](./images/img_05.jpg)
-     * [me.jpg](./me.jpg)
+     * [me.jpg](./images/me.jpg)
 * [index.html](./index.html)
 * [portfolio.html](./portfolio.html)
 * [contact.html](./contact.html)
