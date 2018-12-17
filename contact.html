@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="./images/am_icon.png" sizes="16x16">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="bg-white m-0 mb-4 hdr">
+            <nav class="navbar p-0 navbar-expand-lg navbar-light container">
+                <a class="m-0 p-3 navbar-brand bs-tooltip-right ht" href="./index.html">
+                    <h1 class="ht">Alex Mukha</h1>
+                </a>
+                <button class="m-0 p-0 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mr-2" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./portfolio.html" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <div class="dropdown-menu bg-white" aria-labelledby="navbarDropdown">
+                                <a class="nav-link bg-white" href="./portfolio.html?p=Hangman">Hangman</a>
+                                <a class="nav-link bg-white" href="./portfolio.html?p=RPG_Game">RPG Game</a>
+                                <a class="nav-link bg-white" href="./portfolio.html?p=Trivia_Game">Trivia Game</a>
+                                <a class="nav-link bg-white" href="./portfolio.html?p=Rutgers_Witget">Rutgers Widget</a>
+                                <a class="nav-link bg-white" href="./portfolio.html?p=Rock_Paper_Scissors">Rock Paper
+                                    Scissors</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="table container pl-0 pr-0">
+            <div class="container bg-white m-0">
+                <h1 class="mt p-2 m-0">Contact</h1>
+            </div>
+            <div class="bg-white p-2"></div>
+            <div class="container table pb-2">
+                <form name="contact" action="./thankyou.html" method="POST" target="_self">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Your name</label>
+                        <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp"
+                            placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter your email" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Enter your message here</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" required></textarea>
+                    </div>
+                    <button type="reset" class="btn btn-primary mr-2">Clear</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="mt-2 mb-3 push"></div>
+    </div>
+    <div class="ftr">
+        <footer class="pt-4 pb-4">
+            <div class="container text-center">
+                &COPY; Copyright
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
